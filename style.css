@@ -1,0 +1,251 @@
+
+
+*{
+    margin: 0; 
+    padding: 0;
+} 
+
+.header1{ 
+    background-color: #B7CADB ; 
+    padding: 40px; 
+    display: flex; 
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.titulo1{ 
+    color: #035397;
+    font-size: 40px; 
+    
+    
+}
+.nav1{ 
+    color: #035397;
+    display:flex;
+    padding:5px;
+    
+}
+
+.lista1{ 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+   
+    
+}  
+.lista1 li{ 
+    display: flex; 
+    margin: 10px;
+    list-style: none;
+    font-size: 23px;
+    padding-left: 70px;  
+    
+} 
+a{
+    text-decoration:none;
+  } 
+   
+
+.section1{ 
+    border: solid 4px #B7CADB ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    
+    padding: 40px 100px 40px 100px;
+
+} 
+
+.div1{ 
+    
+    border: solid 4px #B7CADB; 
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-right: 0px; 
+    margin-left: 0px; 
+    width: 1341px; 
+    height: 600px;
+}  
+
+
+.div2{ 
+    background-color: #B7CADB ; 
+    color: #035397;
+    padding: 20px 500px 20px 500px; 
+    
+
+
+}
+
+.img1{ 
+    width: 100%; 
+    height: 100%;
+    
+} 
+
+.footer1{ 
+    background-color: #B7CADB ; 
+    color: #035397;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 40px 0px 40px 0px;
+}  
+
+.footer-nav{ 
+    width: 30%;
+} 
+
+.footer-lista{ 
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around;
+} 
+
+.footer-div{ 
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+
+.div3{ 
+    border: solid 4px #B7CADB; 
+    margin-top: 20px; 
+    margin-bottom: 0px; 
+    margin-right: 80px; 
+    margin-left: 80px; 
+    height: 400px;
+}
+
+.img2{ 
+     width: 100%; 
+     height: 100%;
+} 
+
+.sections2{ 
+    border: solid 4px #B7CADB ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-right: 80px; 
+    margin-left: 80px;
+    padding: 40px 100px 40px 100px;
+} 
+
+.section3{ 
+    border: solid 4px #B7CADB ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-right: 80px; 
+    margin-left: 80px;
+    padding: 40px 100px 40px 100px;
+} 
+
+.div4{ 
+    border: solid 4px #B7CADB; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-right: 80px; 
+    margin-left: 80px; 
+    height: 400px;
+}
+
+
+.img3{ 
+    width: 100%; 
+    height: 100%;
+} 
+
+.section4{ 
+    border: solid 4px #B7CADB ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-right: 80px; 
+    margin-left: 80px;
+    padding: 40px 100px 40px 100px;
+}  
+
+.div5{ 
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-right: 80px; 
+    margin-left: 80px;
+    
+} 
+
+.section5{ 
+    border: solid 4px #B7CADB ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-right: 80px; 
+    margin-left: 80px;
+    padding: 40px 100px 40px 100px;
+} 
+
+@media (max-width: 576px) {
+    
+    .header1, .nav1, .lista1, .footer1{
+       flex-direction:column;
+       align-items:center;
+     } 
+     .header1{ 
+         
+        width: 500px;
+    } 
+    .div2{  
+        padding: 20px 20px 20px 20px;
+        width: 600px;
+    } 
+    .section1{ 
+        width: 370px;
+    } 
+    .footer1{ 
+        width: 520px;
+    } 
+    .div3{ 
+        margin-top: 20px; 
+        margin-bottom: 0px; 
+        margin-right: 20px; 
+        margin-left: 20px; 
+        height: 400px;
+    } 
+    
+   
+   } 
+
+   @media (min-width: 576px) and (max-width: 992px) {
+       .header1, .nav1, .lista1, .footer1{
+           flex-direction:column;
+           align-items:center; 
+           
+         } 
+         .header1{ 
+             
+            width: 500px;
+         }
+         .div2{  
+            padding: 20px 20px 20px 20px;
+            width: 600px;
+
+        } 
+        .section1{ 
+            width: 370px;
+        } 
+        .footer1{ 
+            width: 520px;
+        } 
+        .div3{ 
+            margin-top: 20px; 
+            margin-bottom: 0px; 
+            margin-right: 20px; 
+            margin-left: 20px; 
+            height: 400px;
+        } 
+      
+       
+       }
