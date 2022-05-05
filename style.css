@@ -155,7 +155,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(183,202,219,1) 42%, r
     margin-bottom: 0px; 
     margin-right: 80px; 
     margin-left: 80px; 
-     
     grid-area: imagen; 
 }
 
@@ -171,12 +170,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(183,202,219,1) 42%, r
     margin-bottom: 20px;
     margin-right: 80px; 
     margin-left: 80px; 
-     
     display: flex; 
     justify-content: center; 
     align-items: center; 
     padding: 0 40px;
-   
     grid-area: section;
 } 
 
@@ -241,27 +238,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(183,202,219,1) 42%, r
        flex-direction:column;
        align-items:center;
      } 
-     .header1{ 
-         
-        width: 500px;
-    } 
-    .div2{  
-        padding: 20px 20px 20px 20px;
-        width: 600px;
-    } 
-    .section1{ 
-        width: 370px;
-    } 
-    .footer1{ 
-        width: 520px;
-    } 
-    .div3{ 
-        margin-top: 20px; 
-        margin-bottom: 0px; 
-        margin-right: 20px; 
-        margin-left: 20px; 
-        height: 400px;
-    } 
+     .grid-conteiner{ 
+        
+        grid-template-rows: 300px 600px 150px 400px 200px;
+     }
+     .grid-conteiner-1{ 
+        grid-template-rows: 300px 600px 500px 200px;
+
+     } 
+     .actividades{ 
+         display: none;
+     }
+    
     
    
    } 
@@ -269,31 +257,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(183,202,219,1) 42%, r
    @media (min-width: 576px) and (max-width: 992px) {
        .header1, .nav1, .lista1, .footer1{
            flex-direction:column;
-           align-items:center; 
+           align-items:center; }
            
-         } 
-         .header1{ 
-             
-            width: 500px;
-         }
-         .div2{  
-            padding: 20px 20px 20px 20px;
-            width: 600px;
+         .grid-conteiner{ 
+        
+            grid-template-rows: 300px 600px 150px 400px 200px;
+            
+          }
+         .grid-conteiner-1{  
+            
+            grid-template-rows: 300px 600px 700px 200px;
 
-        } 
-        .section1{ 
-            width: 370px;
-        } 
-        .footer1{ 
-            width: 520px;
-        } 
-        .div3{ 
-            margin-top: 20px; 
-            margin-bottom: 0px; 
-            margin-right: 20px; 
-            margin-left: 20px; 
-            height: 400px;
-        } 
-      
+         
+            }
        
        }
