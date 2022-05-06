@@ -9,7 +9,7 @@
    width: 100%; 
    margin: 0 auto;
     display: grid; 
-    grid-template-rows: 180px 600px 150px 300px 200px;
+    grid-template-rows: 180px 674px 150px 300px 200px;
     grid-template-columns: 1fr;  
     grid-template-areas:  
     "navbar" 
@@ -136,7 +136,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(183,202,219,1) 42%, r
 .grid-conteiner-1{  
     width: 100%; 
     margin: 0 auto;
-     display: grid; 
+    
+    display: grid; 
      grid-template-rows: 180px 600px 400px 200px;
      grid-template-columns: 1fr;  
      grid-template-areas:  
@@ -261,7 +262,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(183,202,219,1) 42%, r
            
          .grid-conteiner{ 
         
-            grid-template-rows: 300px 600px 150px 400px 200px;
+            grid-template-rows: 300px 290px 150px 400px 200px;
             
           }
          .grid-conteiner-1{  
